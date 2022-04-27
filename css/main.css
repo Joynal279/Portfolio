@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+body{
+  margin: 0;
+}
+
+/*navbar design start here*/
+
+h1{
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+a{
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+
+}
+
+p{
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+[class*="col-"]{
+  float: left;
+  padding: 10px;
+}
+
+/*for mobile*/
+[class*="col-"]{
+  width: 100%;
+}
+
+.navbar {
+  background-color: #0c6168;
+  padding: 1% 7%;
+  text-align: center;
+}
+
+.nav-heading {
+  color: white;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.navbar-menu{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.navbar-menu a {
+  background-color: #4086b6;
+  border-radius: 10px;
+  margin: 7px 0px;
+  padding: 10px;
+}
+
+.navbar-menu a:hover{
+  background-color: gray;
+}
+
+.navbar::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/*navbar design end here*/
+
+
+/*profile design starts here*/
+
+.profile{
+  padding: 130px 10px;
+  position: relative;
+  text-align: center;
+}
+
+.profile .top-profile-image {
+position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 30px;
+  right: 20px;
+  transition: transform 2s;
+}
+
+.profile .top-profile-image:hover {
+  transform: rotate(360deg);
+}
+
+.profile .profile-Desc h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+}
+
+.profile-Desc p {
+  color: gray;
+  text-align: center;
+  width: 90%;
+}
+/*profile design ends here*/
