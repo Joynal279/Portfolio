@@ -111,3 +111,16 @@
 }
 
 /*about me design ends here*/
+/*contact design starts here*/
+.contact-links {
+  position: relative;
+}
+
+.media-buttons {
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/*contact design ends here*/

@@ -386,6 +386,8 @@ position: absolute;
   background-color: gray;
 }
 
+
+
 .achievement-contact::after{
   content: '';
   display: table;
