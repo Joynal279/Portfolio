@@ -51,6 +51,7 @@
   width: 120px;
   top: 30px;
   right: 50px;
+  border-radius: 50%;
   transition: transform 2s;
 }
 
@@ -83,4 +84,29 @@
   transform: rotate(360deg);
 }
 
+.profile {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /*profile design ends here*/
+
+
+/*about me design starts here*/
+
+.aboutme-img {
+  margin-top: 100px;
+}
+
+.aboutme-img img {
+  height: 290px;
+  width: 290px;
+}
+
+.about-me p {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/*about me design ends here*/
