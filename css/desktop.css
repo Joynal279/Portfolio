@@ -124,3 +124,33 @@
   transform: translate(-50%, -50%);
 }
 /*contact design ends here*/
+
+
+
+/*footer desing starts here*/
+
+.footer {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer .footer-menu a {
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 1rem;
+}
+
+.footer-menu a:hover{
+  color: gray;
+}
+
+.footer::after{
+  display: table;
+  content: '';
+  clear: both;
+}
+
+
+/*footer desing ends here*/
