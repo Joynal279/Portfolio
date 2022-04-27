@@ -22,7 +22,8 @@
 }
 
 .nav-heading {
-  text-align: right;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .navbar-menu {

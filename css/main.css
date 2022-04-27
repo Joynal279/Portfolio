@@ -177,3 +177,159 @@ position: absolute;
 }
 
 /*about me design ends here*/
+
+/*professional-experience design starts here*/
+
+.professional-experience {
+  padding: 1% 0%;
+}
+
+.professional-experience .card {
+  background-color: #a39e9e;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3s;
+  height: 635px;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px 5px black;
+}
+
+.card-icon {
+  text-align: center;
+}
+.card-icon img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.card-title h2 {
+  background-color: #616161;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.skills-container {
+  padding-right: 30px;
+}
+
+.skills-container li {
+  list-style: none;
+  margin: 30px 10px;
+  font-weight: bolder;
+  position: relative;
+
+}
+
+.skills-container li::before {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  height: 10px;
+  width: 100%;
+  background-color: #0c6168;
+  border-radius: 1000px;
+}
+
+.skills-container li::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  height: 10px;
+  width: 0%;
+  background-color: blueviolet;
+  border-radius: 1000px;
+
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+.skills-container li.html::after {
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+    width: 90%;
+  }
+}
+
+.skills-container li.css::after {
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+    width: 100%;
+  }
+}
+
+.skills-container li.bootstrap::after {
+  animation-name: bootstrap;
+}
+
+@keyframes bootstrap {
+  to {
+    width: 70%;
+  }
+}
+
+.skills-container li.javascript::after {
+  animation-name: javascript;
+}
+
+@keyframes javascript {
+  to {
+    width: 80%;
+  }
+}
+
+.skills-container li.jquery::after {
+  animation-name: jquery;
+}
+
+@keyframes jquery {
+  to {
+    width: 60%;
+  }
+}
+
+.skills-container li.ios::after {
+  animation-name: ios;
+}
+
+@keyframes ios {
+  to {
+    width: 70%;
+  }
+}
+
+.skills-container li.dotnet::after {
+  animation-name: dotnet;
+}
+
+@keyframes dotnet {
+  to {
+    width: 50%;
+  }
+}
+
+.professional-experience::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/*professional-experience design starts here*/
+
