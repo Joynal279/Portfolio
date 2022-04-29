@@ -54,11 +54,11 @@
   top: 30px;
   right: 50px;
   border-radius: 50%;
-  transition: transform 2s;
+  transition: transform 1s;
 }
 
 .profile .top-profile-image:hover {
-  transform: rotate(360deg);
+  transform: scale(1.2);
 }
 
 .profile .profile-Desc h1{
