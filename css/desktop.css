@@ -142,14 +142,16 @@
 
 /*about me design ends here*/
 
-
+.professional-experience {
+  background-color: #E9EBEC;
+}
 
 .professional-experience .card {
-  background-color: #a39e9e;
+  background-color: #A8A8A8;
   border-radius: 5px;
   padding: 10px;
   transition: 0.3s;
-  height: 935px;
+  height: 1135px;
 }
 
 /*contact design starts here*/
