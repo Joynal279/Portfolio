@@ -167,7 +167,7 @@ position: absolute;
 }
 
 .cv-button {
-  background-color: #052d2f;
+  background-color: #0C6168;
   border: none;
   color: white;
   border-radius: 12px;
@@ -175,6 +175,7 @@ position: absolute;
   font-size: 1rem;
   text-align: center;
   margin: 10px;
+  cursor: pointer;
 }
 
 /*about me design ends here*/
@@ -190,7 +191,7 @@ position: absolute;
   border-radius: 5px;
   padding: 10px;
   transition: 0.3s;
-  height: 835px;
+  height: 1035px;
 }
 
 .card:hover {
