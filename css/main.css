@@ -245,14 +245,54 @@ position: absolute;
   left: 0;
   height: 10px;
   width: 0%;
-  background-color: blueviolet;
+  background-color: steelblue;
   border-radius: 1000px;
 
   animation-duration: 3s;
   animation-delay: 1s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
+}
+
+
+.skills-container li.c::after {
+  animation-name: c;
+}
+
+@keyframes c {
+  to {
+    width: 95%;
+  }
+}
+
+.skills-container li.java::after {
+  animation-name: java;
+}
+
+@keyframes java {
+  to {
+    width: 80%;
+  }
+}
+.skills-container li.cSharp::after {
+  animation-name: cSharp;
+}
+
+@keyframes cSharp {
+  to {
+    width: 80%;
+  }
+}
+
+.skills-container li.swift::after {
+  animation-name: swift;
+}
+
+@keyframes swift {
+  to {
+    width: 80%;
+  }
 }
 
 .skills-container li.html::after {
@@ -322,6 +362,26 @@ position: absolute;
 @keyframes dotnet {
   to {
     width: 50%;
+  }
+}
+
+.skills-container li.machine::after {
+  animation-name: machine;
+}
+
+@keyframes machine {
+  to {
+    width: 50%;
+  }
+}
+
+.skills-container li.wordPress::after {
+  animation-name: wordPress;
+}
+
+@keyframes wordPress {
+  to {
+    width: 60%;
   }
 }
 

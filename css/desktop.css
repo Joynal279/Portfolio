@@ -13,17 +13,38 @@
 .col-12 {width: 100%;}
 
 /*navbar design start here*/
+.navbar {
+  height: 60px;
+  padding: 0% 2%;
+}
+
+/*.sticky {*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  width: 100%;*/
+/*  overflow: hidden;*/
+/*}*/
+
 .nav-logo {
-  text-align: left;
+  text-align: center;
+  height: 60px;
 }
 .nav-logo img{
-  height: 100px;
-  width: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 50px;
+  width: 50px;
 }
 
 .nav-heading {
-  text-align: left;
   text-transform: uppercase;
+  padding: 0% 0%;
+  text-align: center;
+}
+
+.nav-heading h1 {
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .navbar-menu {
@@ -33,8 +54,16 @@
 
 .navbar-menu a {
   padding: 5px 10px;
-  margin: 30px 0px;
+  margin: 5px 5px;
   background-color: transparent;
+}
+
+.navbar-menu a:hover{
+  background-color: #0c6168;
+  color: #a39e9e;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-color: white;
 }
 /*navbar design end here*/
 
@@ -112,6 +141,17 @@
 }
 
 /*about me design ends here*/
+
+
+
+.professional-experience .card {
+  background-color: #a39e9e;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.3s;
+  height: 935px;
+}
+
 /*contact design starts here*/
 .contact-links {
   position: relative;
